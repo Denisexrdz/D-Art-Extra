@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Modak');
+@import url('https://fonts.googleapis.com/css?family=Fredoka One');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Fredoka;
+    
+    transition: background-color 0.3s,color 0.3s; 
+}
+body{background-color: #ECFFFC;}
+
+.container{
+    align-content: center;
+    width: 30%;
+    padding: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.Title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.TitleModak{
+    background: linear-gradient(270deg, #FF0054 7.43%, #FF5400 93.97%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    font-weight: 400;
+    text-align:center;
+    font-family: Modak;
+}
+
+.CreaTC{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CreaTC h3{
+    font-size: 20px;
+    font-family: Fredoka;
+    margin-bottom: 20px;
+    text-align: center;
+    color: grey;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.CreaTC h2{
+    font-size: 25;
+    font-family: Fredoka;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #9E0059;
+}
+
+.CreaTC a{
+    font-size: 25px;
+    font-family: Fredoka;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #5C58FF 65.97%, #692EE5 106.62%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    text-decoration-line: underline;
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.O{
+    margin-top: 20px;
+}
+
+.Form input{
+    height: 30px;
+    width: 350px;
+    background-color: #00000000;
+    padding: 10px;
+    outline: none;
+    border-width: 0;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.Form p{
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 500; /* Añadido */
+    transition: all 0.1s;
+    color: grey;
+}
+
+.B{
+    margin-top: 10px;
+}
+
+.InputB{
+    margin-top: 10px;
+    padding: 10px;
+    width: 350px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+    outline: none;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d9d9d9;
+}
+
+.B:hover .InputB{
+    border-color: #FF0054;
+}
+
+.B:hover p{
+    color: #FF0054;
+}
+.BtnRegistro{
+    margin-top: 20px;
+    height: 50px;
+    width: 250px;
+    transition: 0.1s;
+
+}
+.BtnRegistro button{
+    height: 60px;
+    width: 250px;
+    background-color: #FF0054;
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    transition:all 0.1s ease;
+    cursor: pointer;
+}
+
+.BtnRegistro button:hover{
+    height: 65px;
+    width: 270px;
+    filter: brightness(110%);
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.BtnRegistro:hover{
+    margin-top: 17.5px;
+    height: 65px;
+    width: 270px;
+   
+}
+
+.Todo{
+    display: flex;
+}
+
+.imagenes{
+    margin-top: 150px;
+    margin-left: 45%;
+    position: absolute;
+}
+
+.img1{
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    
+}
+
+.img2{
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.imgg2{
+    position: relative;
+    margin-top: -50px;
+    margin-left: 90px;
+    
+}
+
+.img3{
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.imgg3{
+    position: relative;
+    margin-top: -500px;
+    margin-left: 250px;
+    z-index: -1;
+}
+.TextoImg{
+    margin-left: 400px;
+    margin-top: 40px;
+}
+.TextoImg b{
+    font-size: 30px;
+}
+.TextoImg p{
+    background: linear-gradient(180deg, #ff6937 0%, #ff0062 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-family: Modak;
+    font-weight: 300;
+    width: 300px;
+}

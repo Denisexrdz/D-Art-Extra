@@ -1,0 +1,94 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Modak');
+@import url('https://fonts.googleapis.com/css?family=Fredoka One');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Fredoka;
+    
+    transition: background-color 0.3s,color 0.3s; 
+}
+
+body{
+    background-color: #ECFFFC;
+    transition: background-color 0.3s,color 0.3s; 
+}
+
+
+
+.header{
+    top: 0px;
+    position: fixed;
+    left: 0;
+    align-items: center;
+    padding: 30px;
+    height: 20px;
+    z-index: 100;
+    background-color: #ECFFFC;
+    margin-right: 5%;
+    width: 100%;
+   
+}
+
+.nav-bar{
+    margin-top: -15px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+.nav-bar a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login {
+    color: #390099;
+    transition: 0.1s;
+    padding: 12px;
+    font-size: 20px;
+    height: 25px;
+    width: 150px;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.login:hover{
+    filter: brightness(95%);
+    outline: solid #390099;
+    outline-width: 2px;
+}
+
+.signup {
+    background-color: #FF0054;
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+    height: 25px;
+    width: 150px;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.signup:hover{
+    filter: brightness(110%);
+}
+
+.Botones{
+    display: flex;
+    margin-left: auto;
+    margin-right: 50px;
+}
+

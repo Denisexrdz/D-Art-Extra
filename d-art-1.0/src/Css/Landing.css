@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Modak');
+@import url('https://fonts.googleapis.com/css?family=Fredoka One');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Fredoka;
+    
+    transition: background-color 0.3s,color 0.3s; 
+}
+
+body{
+    background-color: #ECFFFC;
+    transition: background-color 0.3s,color 0.3s; 
+}
+
+
+.Landing1 {
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.Bienvenida{
+    z-index: 2;
+    font-size: 60px;
+    font-style: normal ;
+    margin-bottom: 50px;
+    background-color: transparent;
+    display: flex;
+    flex-flow: row;
+    
+}
+.BienvenidaTitle{
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.Bienvenida svg{
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+.en{
+    color: #FF5400;
+    background-color: transparent;
+}
+.logobienvenida{
+    margin-top: 30px;
+}
+.Bienvenida p{
+    color: #696969;
+    font-size: 24px;
+    width: 700px;
+    margin-left: 20px;
+    font-weight: 500;
+    background-color: transparent;
+   
+}
+.fotos {
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.fotos div {
+    position: relative;
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotos img {
+    border-radius: 20px;
+    object-fit: cover;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.fotos p {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    visibility: hidden;
+    background-color: transparent;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    width: 70%;
+    cursor:default;
+}
+
+.foto1:hover img{
+    filter: brightness(50%);
+    height: 260px;
+    width: 260px;
+}
+
+.foto2:hover img{
+    filter: brightness(50%);
+    height: 260px;
+    width: 260px;
+}
+
+.foto3:hover img{
+    filter: brightness(50%);
+    height: 260px;
+    width: 260px;
+}
+
+.foto4:hover img{
+    filter: brightness(50%);
+    height: 260px;
+    width: 260px;
+}
+
+
+.fotos div:hover p {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+.fotos2 {
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.fotos2 div {
+    position: relative;
+    margin: 10px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotos2 img {
+    border-radius: 20px;
+    object-fit: cover;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 76.04%, #ECFFFC 100%);
+
+}
+
+.fotos2 p {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    visibility: hidden;
+    background-color: transparent;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    width: 70%;
+    cursor:default;
+}
+
+.fotolol1:hover img{
+    filter: brightness(50%);
+    height: 610px;
+    width: 610px;
+}
+
+.fotolol1:hover body{
+    background-color: #ffd1d1;
+}
+
+.fotolol2:hover img{
+    filter: brightness(50%);
+    height: 610px;
+    width: 610px;
+}
+
+.fotolol2:hover body{
+    background-color: #ffdec9;
+}
+
+.fotolol3:hover img{
+    filter: brightness(50%);
+    height: 610px;
+    width: 610px;
+}
+
+.fotolol3:hover body{
+    background-color: #d9baff;
+}
+
+.fotolol4:hover img{
+    filter: brightness(50%);
+    height: 610px;
+    width: 610px;
+}
+
+.fotolol4:hover body{
+    background-color: #ffc4db;
+}
+
+.fotos2 div:hover p {
+    visibility: visible;
+    opacity: 1;
+}
