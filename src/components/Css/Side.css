@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Modak');
+@import url('https://fonts.googleapis.com/css?family=Fredoka One');
+
+
+.Logo{
+    padding-left: 10px;
+}
+
+.links{
+    padding-top: 0px;
+    padding-left: 35px;
+}
+
+p{
+    font-size: large;
+    padding-top: 10px;
+}
+
+.side {
+    float: left;
+    width: 25%;
+    height: 100%;
+}

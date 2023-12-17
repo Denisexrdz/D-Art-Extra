@@ -2,10 +2,10 @@
 
 
 import '@/Css/Login.css'
-import { fredoka } from '@/fuentes/fonts';
+//import { fredoka } from '@/fuentes/fonts';
 import Link from 'next/link';
 import Image from 'next/image';
-import Navbar from '@/components/Navbar';
+//import Navbar from '@/components/Navbar';
 import { useState } from 'react';
 
 //Todo lo de firebase
@@ -123,7 +123,7 @@ export default function Login() {
         <div className='Camposi'>
           <div className='Formi'>
             <div className='Bi'>
-            <p>Correow</p>
+            <p>Correo</p>
             <div className='InputBi'>
               <input 
               value={email} 
