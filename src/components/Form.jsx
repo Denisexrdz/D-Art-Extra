@@ -15,6 +15,7 @@ const Form = () => {
     e.preventDefault();
     const titulo = e.target.titulo.value;
     const descCrea = e.target.descCrea.value;
+    const precio = e.target.precio.value;
 
     try {
       const archivoI = e.target.file.files[0];
@@ -26,11 +27,14 @@ const Form = () => {
       await addDoc(collection(db, 'creaciones'), {
         titulo: titulo,
         descCrea: descCrea,
+        precio: precio,
         imagen: downloadUrl,
+        
       });
 
       e.target.titulo.value = '';
       e.target.descCrea.value = '';
+      e.target.precio.value='';
       e.target.file.value = '';
       window.location.reload();
     } catch (error) {
@@ -46,11 +50,23 @@ const Form = () => {
           <tbody>
             <tr>
               <label>Titulo</label>
-              <input type="text" required placeholder="Ponle un titulo a tu creacion" id="titulo" className="InputB" />
+              <input type="text" required placeholder="Ponle un titulo a tu creacion" id="titulo" className="InputB"
+              minLength={10} maxLength={100} />
             </tr>
             <tr>
               <label>Descripción de creación</label>
-              <input type="text" required placeholder="Describe tu obra" id="descCrea" className="InputB" />
+              <input type="text" required placeholder="Describe tu obra" id="descCrea" className="InputB" 
+              minLength={10} maxLength={100}/>
+            </tr>
+            <tr>
+              <label>Precio de tu Creacion</label>
+              <input
+               type="number"
+                required placeholder="$$"
+                id="precio" 
+                className="InputB" 
+                min="1"
+                max="999999"/>
             </tr>
             <tr>
               <label>Agregar creación</label>

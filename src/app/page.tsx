@@ -31,8 +31,6 @@ const images2 = [
 
 ];
 
-
-
 const frases = [
   "Descubre y crea arte en D-Art", 
   "Hacer pedidos nunca fue tan facil como en D-Art", 

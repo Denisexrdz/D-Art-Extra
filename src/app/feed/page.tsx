@@ -84,6 +84,7 @@ export default function Feed() {
                                                     value={newComision.descComision}
                                                     onChange={(e) => setNewComision({ ...newComision, descComision: e.target.value })}
                                                     type='text' placeholder='Haz tu comisión!' required
+                                                    minLength={10} maxLength={100}
                                                 />
                                             </tr>
                                             <tr>
@@ -100,6 +101,7 @@ export default function Feed() {
                                                         }
                                                     }}
                                                     type='number' placeholder='$presupuesto$' required
+                                                    minLength={10} maxLength={100}
                                                 />
                                             </tr>
                                             <tr>

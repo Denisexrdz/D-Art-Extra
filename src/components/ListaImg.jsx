@@ -38,7 +38,8 @@ const ListaImg = () => {
           {lista.map((item) => (
             <tr key={item.id}>
               <tr><p className='F'>Titulo:</p> {item.titulo}</tr>
-              <tr><p className='F'>Descripcion:</p> {item.descCrea}</tr>
+              <tr><p className='F'>Descripcion:</p> {item.descCrea} </tr>
+              <tr><p className='F'>Precio</p> ${item.precio} </tr>
               <tr>
                 <img
                   style={{ maxWidth: '100%', height: 'auto' }}
