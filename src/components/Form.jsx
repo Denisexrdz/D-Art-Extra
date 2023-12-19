@@ -32,6 +32,7 @@ const Form = () => {
       e.target.titulo.value = '';
       e.target.descCrea.value = '';
       e.target.file.value = '';
+      window.location.reload();
     } catch (error) {
       console.log(error);
     }

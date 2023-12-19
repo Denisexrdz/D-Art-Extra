@@ -88,3 +88,16 @@ label{
     margin: 20px;
     margin-bottom: -10px;
 }
+
+.titulo {
+    background: linear-gradient(90deg, #5C58FF 65.97%, #692EE5 106.62%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    font-family: Modak;
+    margin: 20px;
+    margin-bottom: -10px;
+}

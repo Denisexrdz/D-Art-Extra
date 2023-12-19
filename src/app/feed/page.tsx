@@ -112,6 +112,7 @@ export default function Feed() {
                         </tr>
                         <tr>
                             <td>
+                                <p className='titulo'>Comisiones</p>
                                 {showComisionesFeed ? (
                                     <div className='ComisionesUp'>
                                         <ul>
