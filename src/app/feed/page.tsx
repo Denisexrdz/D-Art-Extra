@@ -112,9 +112,10 @@ export default function Feed() {
                         </tr>
                         <tr>
                             <td>
-                                <p className='titulo'>Comisiones</p>
+                                
                                 {showComisionesFeed ? (
                                     <div className='ComisionesUp'>
+                                        <p className='titulo'>Comisiones</p>
                                         <ul>
                                             {comisiones.map((comision, id) => (
                                                 <li key={id} className="my-4 w-full flex justify-between ">
