@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Modak');
+@import url('https://fonts.googleapis.com/css?family=Fredoka One');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Fredoka;
+}
+
+label{
+    font-size: larger;
+    
+}
+
+.formAgregarCreacion {
+    border-radius: 20px;
+    background: #B6DCFF;
+    margin: 20px;
+    padding: auto;
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    font-size: large;
+
+}
+
+.InputB  {
+    
+    padding: 10px;
+    width: 300px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d9d9d9;
+
+}
+
+.InputB:hover {
+    border-color: #FF0054;
+}
+
+
+.Comparte {
+    color: #390099;
+    background-color: #B6DCFF;
+    transition: 0.1s;
+    padding: 12px;
+    font-size: 20px;
+    height: 55px;
+    width: 150px;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.Comparte:hover {
+    height: 65px;
+    width: 270px;
+    filter: brightness(110%);
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.Comparte:hover {
+    margin-top: 17.5px;
+    height: 65px;
+    width: 270px;
+}
+
+.titulo {
+    background: linear-gradient(90deg, #5C58FF 65.97%, #692EE5 106.62%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    font-family: Modak;
+    margin: 20px;
+    margin-bottom: -10px;
+}

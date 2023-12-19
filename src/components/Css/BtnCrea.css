@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Modak');
+@import url('https://fonts.googleapis.com/css?family=Fredoka One');
+
+* {
+    font-size: large;
+    font-family: Fredoka;
+}
+
+.A {
+    float: right;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.modal {
+    width: 212px;
+    height: 77px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border-color: #FF0054;
+    background: #FF0054;
+    color: white;
+}
+
+.cerrar {
+    border-radius: 10px;
+    border: 2px solid #390099;
+    background: rgba(57, 0, 153, 0.16);
+}

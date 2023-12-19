@@ -25,13 +25,13 @@ export default function Side() {
                     <Link href="/feed"><p>Feed</p></Link> 
                     </li>
                     <li>
-                    <Link href="/feed"><p>Buscar</p></Link> 
+                    <Link href="/buscar"><p>Buscar</p></Link> 
                     </li>
                     <li>
                     <Link href="/feed"><p>Mensajes</p></Link> 
                     </li>
                     <li>
-                    <Link href="/feed"><p>Perfil</p></Link>                        
+                    <Link href="/perfil"><p>Perfil</p></Link>                        
                     </li>
                 </ul>
             </div>

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Modak');
+@import url('https://fonts.googleapis.com/css?family=Fredoka One');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Fredoka;
+}
+
+.titulo {
+    background: linear-gradient(90deg, #5C58FF 65.97%, #692EE5 106.62%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    font-family: Modak;
+    margin: 20px;
+    margin-bottom: -10px;
+}
+
+.tablero {
+    border: transparent;
+    font-size: large;
+}
+
+.F {
+    color: #6966FF;
+    font-family: Fredoka;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
